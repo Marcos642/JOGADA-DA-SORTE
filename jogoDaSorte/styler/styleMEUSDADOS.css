@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #282433;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #e0e0e0;
+}
+    
+    .tickets {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .ticket {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .ticket img {
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+    
+    .logo {
+        display: block;
+        margin: 20px auto;
+        max-width: 200px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #282433;
+        color: white;
+        flex-shrink: 0;
+    }
+    
+    .center {
+        text-align: center;
+    }
+
+    /* O CSS fornecido anteriormente permanece inalterado */
+
+/* Estilize o botão "Remover do Carrinho" */
+.remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.remove-button:hover {
+    background-color: #d32f2f;
+}
+
+/* O CSS fornecido anteriormente permanece inalterado */
+
+/* Estilize o botão "Pagar Todos os Bilhetes" */
+.pay-all-button {
+    background-color: #282433;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pay-all-button:hover {
+    background-color: #349738;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
